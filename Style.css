@@ -1,0 +1,174 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background-color: #153a80;
+    padding: 20px 0px;
+}
+
+.logoPrincipal {
+    width: 15%;
+}
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    font-size: 5px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+nav li :hover{
+    color: hotpink;
+    text-decoration: underline;
+}
+
+.banner {
+    width: 100%;
+}
+
+.principal {
+    padding: 2em 0;
+    background: linear-gradient(#fefefe, #fefefe);
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-align: center;
+    /* dos veces su tamaño em*/
+    font-size: 2em;
+    margin: 0 0 0.5em;
+    padding: 1em 0;
+    clear: left;
+    color: black
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+.contenido-diferenciales {
+    width: 650px;
+    margin: 0px auto;
+}
+
+.lista-diferenciales {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items {
+    line-height: 1.5;
+    padding: 3px;
+}
+
+.principios {
+    text-align: center;
+    width: 940px;
+    margin: 0 auto;
+    padding: 34px;
+}
+
+.principios li {
+    display: inline-block;
+    text-align: center;
+    width: 21%;
+    vertical-align: top;
+    margin: 1.0% 1.5%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.principios li:hover {
+    border-color: #e529b3;
+}
+
+.principios li:active {
+    border-color: #3518b9;
+}
+
+.principios h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.principios li img{
+    width: 20%;
+}
+
+.principios li:hover h2  {
+    font-size: 22px;
+}
+
+.principios-descripcion {
+    font-size: 10px;
+}
+
+table {
+    display: block;
+    margin: 0px auto; /* 10px de margen arriba y abajo, y 'auto' para centrar horizontalmente */
+    margin-left: 180px; /* Mover la tabla 50px hacia la derecha */
+    text-align: center;
+}
+
+thead {
+    background: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+footer {
+    text-align: center;
+    background: url(Images/accesibilidadWebBanner2.webp);
+    padding: 40px;
+}
+
+.Copyright {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 20px;
+}
